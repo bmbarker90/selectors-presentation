@@ -13,6 +13,7 @@ import {
 import CodeSlide from 'spectacle-code-slide';
 
 import allPic from './allthethings.jpg';
+import improvementGif from './improvement.gif';
 
 export default [
   <Slide>
@@ -40,5 +41,17 @@ export default [
       <Quote>It is the only reason I manage to change the state shape drastically over the lessons without touching the components even once.</Quote>
       <Cite>Dan Abramov</Cite>
     </BlockQuote>
-  </Slide>
+  </Slide>,
+  <Slide>
+    <Heading size="3">But if shape does change?</Heading>
+  </Slide>,
+  <Slide>
+    <Heading size="3">Still 2 files know about it</Heading>
+  </Slide>,
+  <Slide>
+    <Image src={ improvementGif } height="100%" width="100%" />
+  </Slide>,
+  <Slide>
+    <Heading size="3">Still some room for improvement</Heading>
+  </Slide>,
 ];
