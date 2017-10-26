@@ -1,0 +1,42 @@
+const mapStateToProps = state => {
+  return {
+    todos: state.todos,
+    visibilityFilter: state.visibilityFilter,
+  };
+}
+
+class TodoList {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      visibleTodos: this.getVisibleTodos(props);
+    }
+  }
+
+  componentWillReceiveProps(nextProps) {
+    const todosChanged = nextProps.todos !== this.props.todos;
+    const visibilityChanged = nextProps.visibilityFilter !== this.props.visibilityFilter;
+
+    if (todosChanged || visibilityChanged) {
+      this.setState({
+        visibleTodos
+      })
+    }
+  }
+
+  getVisibleTodos({ todos, visibilityFilter }) {
+    switch (visibilityFilter) {
+      case 'SHOW_ALL':
+        return todos;
+      case 'SHOW_COMPLETED':
+        return todos.filter(t => t.completed);
+      case 'SHOW_ACTIVE':
+        return todos.filter(t => !t.completed);
+    }
+  }
+}
+
+export default connect(
+  mapStateToProps
+)(TodoList)

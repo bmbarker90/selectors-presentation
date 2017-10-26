@@ -5,6 +5,7 @@
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "spectacle-code-slide": "https://github.com/bmbarker90/spectacle-code-slide.git#fix/add-code-theme-class",
     "spectacle-scripts": "1.0.15",
     "spectacle-theme-nova": "^1.4.1"
   },
@@ -13,5 +14,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "raw-loader": "^0.5.1"
   }
 }

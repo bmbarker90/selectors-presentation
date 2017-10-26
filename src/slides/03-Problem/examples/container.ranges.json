@@ -1,0 +1,22 @@
+[
+  {
+    "loc": [0, 42],
+    "title": "Currently..."
+  },
+  {
+    "loc": [0, 6],
+    "note": "grab slice of state"
+  },
+  {
+    "loc": [27, 38],
+    "note": "create function"
+  },
+  {
+    "loc": [8, 15],
+    "note": "initialize"
+  },
+  {
+    "loc": [16, 26],
+    "note": "check if it changes"
+  }
+]
