@@ -4,8 +4,6 @@ import {
   Slide,
   Heading,
   Image,
-  Layout,
-  Fill,
 } from 'spectacle';
 
 import concerns from './separation-of-concerns.png';
