@@ -5,18 +5,18 @@
   },
   {
     "loc": [0, 6],
-    "note": "grab slice of state"
+    "note": "Grab slice of state"
   },
   {
     "loc": [27, 38],
-    "note": "create function"
+    "note": "Create function"
   },
   {
     "loc": [8, 15],
-    "note": "initialize"
+    "note": "Initialize"
   },
   {
     "loc": [16, 26],
-    "note": "check if it changes"
+    "note": "Check if it changes"
   }
 ]

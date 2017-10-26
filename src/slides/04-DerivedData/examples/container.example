@@ -1,0 +1,18 @@
+import { getVisibleTodos } from './selectors';
+
+const mapStateToProps = state => {
+  return {
+    todos: getVisibleTodos(state.todos, state.visibilityFilter),
+    filter: state.visibilityFilter,
+  };
+}
+
+class TodoList {
+  render() {
+    ...
+  }
+}
+
+export default connect(
+  mapStateToProps
+)(TodoList);

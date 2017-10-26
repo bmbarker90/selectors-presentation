@@ -13,15 +13,19 @@ import gross from './gross.gif';
 
 export default [
   <Slide>
+    <Heading size="4">actions.js</Heading>
     <CodePane lang="js" source={ require('!raw-loader!./examples/actions.example') }></CodePane>
   </Slide>,
   <Slide>
+    <Heading size="4">todos-reducer.js</Heading>
     <CodePane lang="js" source={ require('!raw-loader!./examples/reducer.todos.example') }></CodePane>
   </Slide>,
   <Slide>
+    <Heading size="4">visibility-reducer.js</Heading>
     <CodePane lang="js" source={ require('!raw-loader!./examples/reducer.visibility.example') }></CodePane>
   </Slide>,
   <Slide>
+    <Heading size="4">store.js</Heading>
     <CodePane lang="js" source={ require('!raw-loader!./examples/store.example') }></CodePane>
   </Slide>,
   <CodeSlide

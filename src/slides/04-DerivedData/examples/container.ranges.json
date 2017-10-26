@@ -1,0 +1,14 @@
+[
+  {
+    "loc": [0, 17],
+    "title": "Implement it"
+  },
+  {
+    "loc": [0, 1],
+    "note": "Import the selector"
+  },
+  {
+    "loc": [3, 6],
+    "note": "Plug values from state"
+  }
+]
