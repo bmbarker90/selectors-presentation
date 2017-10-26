@@ -1,0 +1,14 @@
+[
+  {
+    "loc": [0, 1],
+    "note": "import new selectors"
+  },
+  {
+    "loc": [5, 6],
+    "note": "use for even simple slices"
+  },
+  {
+    "loc": [4, 5],
+    "note": "use for derived data as well"
+  }
+]
