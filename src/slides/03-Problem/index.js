@@ -10,9 +10,6 @@ import {
 import CodeSlide from 'spectacle-code-slide';
 import gross from './gross.gif';
 
-const stuff = require('./examples/container.ranges.json');
-console.log(stuff);
-
 
 export default [
   <Slide>
@@ -32,7 +29,7 @@ export default [
     transition={[]}
     lang="js"
     code={ require('!raw-loader!./examples/container.example') }
-    ranges={ stuff }
+    ranges={ require('./examples/container.ranges.json') }
   />,
   <Slide>
     <Image src={ gross } height="100%" width="100%" />
