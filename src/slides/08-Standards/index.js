@@ -9,10 +9,6 @@ import {
   Appear,
 } from 'spectacle';
 
-import colocatingTweet from './colocating.png';
-
-
-
 export default [
   <Slide>
     <Heading size="2">Proposal #5</Heading>
@@ -23,6 +19,7 @@ export default [
     <List>
       <Appear><ListItem>Naming - start with "get"</ListItem></Appear>
       <Appear><ListItem>Test whole flow, not just "resultFunc"</ListItem></Appear>
+      <Appear><ListItem>Anything else?</ListItem></Appear>
     </List>
   </Slide>
 ];

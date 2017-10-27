@@ -22,7 +22,7 @@ export default [
     <Heading size="2">Proposal #4</Heading>
     <Heading size="4">Use Reselect</Heading>
   </Slide>,
-  <Slide>
+  <Slide notes="Optimization technique where expensive function calls are cached">
     <Heading size="2">Memoization</Heading>
   </Slide>,
   <Slide>

@@ -7,6 +7,8 @@ import DerivedData from './04-DerivedData';
 import AllSelectors from './05-AllSelectors';
 import Colocate from './06-Colocate';
 import Reselect from './07-Reselect';
+import Standards from './08-Standards';
+import End from './09-End';
 
 const slides = [].concat(
   Intro,
@@ -16,6 +18,8 @@ const slides = [].concat(
   AllSelectors,
   Colocate,
   Reselect,
+  Standards,
+  End,
 );
 
 export default slides.map((slide, i) => cloneElement(slide, { key: i }));
