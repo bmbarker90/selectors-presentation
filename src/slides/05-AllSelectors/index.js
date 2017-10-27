@@ -46,7 +46,7 @@ export default [
     <Heading size="3">But if shape does change?</Heading>
   </Slide>,
   <Slide>
-    <Heading size="3">Still 2 files know about it</Heading>
+    <Heading size="3">2 files still know about it</Heading>
   </Slide>,
   <Slide>
     <Image src={ improvementGif } height="100%" width="100%" />
