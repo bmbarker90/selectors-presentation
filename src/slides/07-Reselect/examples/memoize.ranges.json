@@ -1,0 +1,30 @@
+[
+  {
+    "loc": [0, 15],
+    "title": "Memoize"
+  },
+  {
+    "loc": [1, 2],
+    "note": "Take in a function"
+  },
+  {
+    "loc": [2, 3],
+    "note": "Set up a cache"
+  },
+  {
+    "loc": [3, 15],
+    "note": "Return a function"
+  },
+  {
+    "loc": [4, 5],
+    "note": "Hash the arguments"
+  },
+  {
+    "loc": [6, 8],
+    "note": "If cached, return"
+  },
+  {
+    "loc": [7, 12],
+    "note": "Otherwise, eval and cache"
+  }
+]

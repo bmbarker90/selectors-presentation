@@ -1,0 +1,30 @@
+[
+  {
+    "loc": [0, 20],
+    "title": "Use Reselect"
+  },
+  {
+    "loc": [0, 1],
+    "note": "Import reselect"
+  },
+  {
+    "loc": [3, 5],
+    "note": "Simple ones stay the same"
+  },
+  {
+    "loc": [6, 7],
+    "note": "Use createSelector"
+  },
+  {
+    "loc": [7, 9],
+    "note": "Add funcs to depend on"
+  },
+  {
+    "loc": [9, 10],
+    "note": "They become args of last one"
+  },
+  {
+    "loc": [0, 17],
+    "note": "Func stays the same"
+  }
+]
