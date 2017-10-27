@@ -13,6 +13,9 @@ import gross from './gross.gif';
 
 export default [
   <Slide>
+    <Heading size="1">The Problem</Heading>
+  </Slide>,
+  <Slide>
     <Heading size="4">actions.js</Heading>
     <CodePane lang="js" source={ require('!raw-loader!./examples/actions.example') }></CodePane>
   </Slide>,

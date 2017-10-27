@@ -17,7 +17,7 @@ import kissPic from './kiss.jpg';
 
 export default [
   <Slide>
-    <Heading size="3">We could...add it to state</Heading>
+    <Heading size="3">We could...do it in the reducer</Heading>
   </Slide>,
   <Slide>
     <Image src={ noGif } height="100%" width="100%" />
