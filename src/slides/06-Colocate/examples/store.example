@@ -1,0 +1,26 @@
+import { combineReducers } from 'redux';
+import todos from './todos';
+import visibilityFilter from './visibilityFilter';
+
+const todoApp = combineReducers({
+  todos,
+  visibilityFilter
+});
+
+export default todoApp;
+
+export const getTodos = state => state.todos;
+export const getFilter = state => state.visibilityFilter;
+
+export const getVisibleTodos = (state) => {
+  const todos = getTodos(state);
+  const filter = getFilter(state);
+  switch (filter) {
+    case 'SHOW_ALL':
+      return todos;
+    case 'SHOW_COMPLETED':
+      return todos.filter(t => t.completed);
+    case 'SHOW_ACTIVE':
+      return todos.filter(t => !t.completed);
+  }
+};

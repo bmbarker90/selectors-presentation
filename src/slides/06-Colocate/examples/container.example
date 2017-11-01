@@ -1,8 +1,8 @@
-import { getVisibleTodos, getTodos, getFilter } from './selectors';
+import { getVisibleTodos, getTodos, getFilter } from './store';
 
 const mapStateToProps = state => {
   return {
-    todos: getVisibleTodos(getTodos(state), getFilter(state)),
+    todos: getVisibleTodos(state),
     filter: getFilter(state),
   };
 }
