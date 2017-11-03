@@ -3,7 +3,6 @@
 import React from 'react';
 import {
   Slide,
-  Image,
   CodePane,
   Heading,
   List,
@@ -11,8 +10,6 @@ import {
   Appear,
 } from 'spectacle';
 import CodeSlide from 'spectacle-code-slide';
-
-import factorial1000 from './factorial-1000.png';
 
 export default [
   <Slide>
