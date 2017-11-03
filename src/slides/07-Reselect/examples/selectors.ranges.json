@@ -5,26 +5,26 @@
   },
   {
     "loc": [0, 1],
-    "note": "Import reselect"
+    "note": "Import createSelector from reselect"
   },
   {
-    "loc": [3, 5],
+    "loc": [2, 4],
     "note": "Simple ones stay the same"
   },
   {
-    "loc": [6, 7],
+    "loc": [5, 6],
     "note": "Use createSelector"
   },
   {
-    "loc": [7, 9],
+    "loc": [6, 8],
     "note": "Add funcs to depend on"
   },
   {
-    "loc": [9, 10],
-    "note": "They become args of last one"
+    "loc": [8, 9],
+    "note": "Their results become args of last one"
   },
   {
-    "loc": [0, 17],
+    "loc": [9, 17],
     "note": "Func stays the same"
   }
 ]
