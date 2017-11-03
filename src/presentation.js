@@ -5,7 +5,7 @@ import React from 'react';
 import { Deck } from 'spectacle';
 
 // Import theme
-import createTheme from 'spectacle-theme-nova';
+import createTheme from 'spectacle-theme-nova/bundle';
 import 'prismjs/components/prism-core';
 import 'prismjs/components/prism-clike';
 import 'spectacle-theme-nova/syntax/prism-javascript';
