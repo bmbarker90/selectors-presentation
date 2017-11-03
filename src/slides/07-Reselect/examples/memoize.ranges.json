@@ -4,23 +4,23 @@
     "title": "Memoize"
   },
   {
-    "loc": [1, 2],
+    "loc": [0, 1],
     "note": "Take in a function"
   },
   {
-    "loc": [2, 3],
+    "loc": [1, 2],
     "note": "Set up a cache"
   },
   {
-    "loc": [3, 15],
+    "loc": [2, 14],
     "note": "Return a function"
   },
   {
-    "loc": [4, 5],
+    "loc": [3, 4],
     "note": "Hash the arguments"
   },
   {
-    "loc": [6, 8],
+    "loc": [4, 7],
     "note": "If cached, return"
   },
   {
