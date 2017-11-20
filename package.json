@@ -12,7 +12,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "docs": "rm -rf ./docs && mkdir docs && npm run build && cp -a ./build ./docs ",
+    "docs": "rm -rf ./docs && mkdir docs && npm run build && cp -a ./build/* ./docs ",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
